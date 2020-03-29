@@ -46,22 +46,15 @@ Merkle tree saves the gas for Air Drop process. In normal way, loop is needed to
 
 ## Usage
 
-Install package
+Install package truffle and run ganache CLI
 
 ```
 npm install
-```
-
-Migrate contract
-
-```
+npm install -g ganache-cli
+ganache-cli -d
 npm install -g truffle
 truffle migrate
-```
 
-Test contract
-
-```
 npm test
 ```
 
