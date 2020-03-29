@@ -1,0 +1,19 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "redeem-tree.js",
+  "directories": {
+    "test": "truffle test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^4.0.46",
+    "truffle-assertions": "^0.9.2",
+    "web3": "^1.2.6"
+  }
+}
